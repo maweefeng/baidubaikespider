@@ -21,7 +21,7 @@ class SpiderMain(object):
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
 
-                if count == 10:
+                if count == 5:
                     break
                 count = count+1
             except:
